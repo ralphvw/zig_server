@@ -1,0 +1,23 @@
+# Ignore Zig build cache directories
+zig-cache/
+zig-out/
+
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore temporary files
+*.tmp
+*.log
+*~
+
+# Ignore system files (e.g., macOS)
+.DS_Store
+
+# Ignore editor-specific settings (optional)
+.vscode/
+.idea/
